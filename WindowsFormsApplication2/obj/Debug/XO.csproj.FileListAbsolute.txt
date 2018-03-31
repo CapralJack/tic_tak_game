@@ -18,3 +18,12 @@ I:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Windows
 F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
 F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+G:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+G:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+G:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\XO.csprojResolveAssemblyReference.cache
+F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+F:\Attempt 1\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\XO.csproj.GenerateResource.Cache

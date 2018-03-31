@@ -14,8 +14,8 @@ namespace WindowsFormsApplication2
        
     {
         Logic logic = new Logic();
-        bool comp_x = false;
-        bool comp_o = false;
+        bool use_comp = false;
+      
 
 
         public Form1()
@@ -48,6 +48,7 @@ namespace WindowsFormsApplication2
 
         private void playToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            use_comp = false;
             start_game();
         }
 
@@ -77,8 +78,11 @@ namespace WindowsFormsApplication2
             }
 
             if (logic.finish != "play") { game_over(); return; }
+
+            if (use_comp) make_Comp();
         }
 
+       
 
             private void make_Comp()
         {
@@ -106,9 +110,8 @@ namespace WindowsFormsApplication2
 
         private void menu_start_comp_Click(object sender, EventArgs e)
         {
+            use_comp = true;
             start_game();
-            comp_o = false;
-            comp_x = true;
             make_Comp();
         
        
@@ -117,8 +120,9 @@ namespace WindowsFormsApplication2
 
         private void menu_play_With_comp_x_Click(object sender, EventArgs e)
         {
-            comp_o = true;
-            comp_x = false;
+            use_comp = true;
+            start_game();
+
         }
 
        private PictureBox picture (int x, int y)

@@ -32,6 +32,7 @@
             this.menu_game = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_start_human = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_play_with_comp_o = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_play_With_comp_x = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -43,7 +44,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menu_play_With_comp_x = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -91,6 +91,13 @@
             this.menu_play_with_comp_o.Size = new System.Drawing.Size(163, 22);
             this.menu_play_with_comp_o.Text = "Play with AI. O";
             this.menu_play_with_comp_o.Click += new System.EventHandler(this.menu_start_comp_Click);
+            // 
+            // menu_play_With_comp_x
+            // 
+            this.menu_play_With_comp_x.Name = "menu_play_With_comp_x";
+            this.menu_play_With_comp_x.Size = new System.Drawing.Size(163, 22);
+            this.menu_play_With_comp_x.Text = "Play with AI. X";
+            this.menu_play_With_comp_x.Click += new System.EventHandler(this.menu_play_With_comp_x_Click);
             // 
             // menu_Exit
             // 
@@ -249,13 +256,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "00";
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // menu_play_With_comp_x
-            // 
-            this.menu_play_With_comp_x.Name = "menu_play_With_comp_x";
-            this.menu_play_With_comp_x.Size = new System.Drawing.Size(163, 22);
-            this.menu_play_With_comp_x.Text = "Play with AI. X";
-            this.menu_play_With_comp_x.Click += new System.EventHandler(this.menu_play_With_comp_x_Click);
             // 
             // Form1
             // 
